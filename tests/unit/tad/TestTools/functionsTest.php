@@ -1,6 +1,7 @@
 <?php
-namespace tad\TestTools;
+namespace test\TestTools;
 
+use function tad\TestTools\revealOrReturn;
 use test\TestTools\A;
 use tad\FunctionMocker\FunctionMocker;
 

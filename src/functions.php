@@ -4,6 +4,12 @@ namespace tad\TestTools;
 
 if (!function_exists('revealOrReturn')) {
 
+    /**
+     * Either completes the mocking procedure for an object if a mock builder or return the object.
+     *
+     * @param mixed $object
+     * @return mixed An object ready for injection.
+     */
     function revealOrReturn($object)
     {
         $map = [
