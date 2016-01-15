@@ -1,0 +1,21 @@
+{
+  "name": "lucatume/test-tools",
+  "require-dev": {
+    "codeception/codeception": "^2.1",
+    "lucatume/function-mocker": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "Luca Tumedei",
+      "email": "luca@theaveragedev.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "tad\\TestTools\\": "src/TestTools/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
